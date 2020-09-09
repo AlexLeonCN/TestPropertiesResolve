@@ -1,6 +1,6 @@
 import java.text.SimpleDateFormat
 class PropertiesResolveService {
-    final String filePath = "E:/Test/Test.properties"
+    final String filePath = "../Properties/Test.properties"
     def props = new Properties()
     /*获取properties的map*/
     def getPropertiesByMap() {
